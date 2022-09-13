@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>/views/home.jsp</title>
+<title>/views/users/updateform.jsp</title>
 </head>
 <body>
-	<a href="">예약</a>
-	<a href="${pageContext.request.contextPath}/users/loginform.do">로그인</a>
-	<a href="">고객</a>
-	<a href="">리뷰</a>
+   <h1>프로필 수정 페이지입니다.</h1>
+   사진수정
+   비밀번호 수정 
+   <a href="${pageContext.request.contextPath}/users/update.do">수정완료</a>
 </body>
 </html>
